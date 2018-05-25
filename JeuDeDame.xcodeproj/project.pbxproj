@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC51E3A620B84A2600B4A5EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51E3A520B84A2600B4A5EB /* AppDelegate.swift */; };
+		CC51E3A820B84A2600B4A5EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51E3A720B84A2600B4A5EB /* ViewController.swift */; };
+		CC51E3AB20B84A2600B4A5EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC51E3A920B84A2600B4A5EB /* Main.storyboard */; };
+		CC51E3AD20B84A2600B4A5EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC51E3AC20B84A2600B4A5EB /* Assets.xcassets */; };
+		CC51E3B020B84A2600B4A5EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC51E3AE20B84A2600B4A5EB /* LaunchScreen.storyboard */; };
+		CC51E3BB20B84A2600B4A5EB /* JeuDeDameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51E3BA20B84A2600B4A5EB /* JeuDeDameTests.swift */; };
+		CC51E3C620B84A2600B4A5EB /* JeuDeDameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51E3C520B84A2600B4A5EB /* JeuDeDameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC51E3B720B84A2600B4A5EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC51E39A20B84A2600B4A5EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC51E3A120B84A2600B4A5EB;
+			remoteInfo = JeuDeDame;
+		};
+		CC51E3C220B84A2600B4A5EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC51E39A20B84A2600B4A5EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC51E3A120B84A2600B4A5EB;
+			remoteInfo = JeuDeDame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC51E3A220B84A2600B4A5EB /* JeuDeDame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeuDeDame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC51E3A520B84A2600B4A5EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC51E3A720B84A2600B4A5EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC51E3AA20B84A2600B4A5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC51E3AC20B84A2600B4A5EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC51E3AF20B84A2600B4A5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC51E3B120B84A2600B4A5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC51E3B620B84A2600B4A5EB /* JeuDeDameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeuDeDameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC51E3BA20B84A2600B4A5EB /* JeuDeDameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeuDeDameTests.swift; sourceTree = "<group>"; };
+		CC51E3BC20B84A2600B4A5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC51E3C120B84A2600B4A5EB /* JeuDeDameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeuDeDameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC51E3C520B84A2600B4A5EB /* JeuDeDameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeuDeDameUITests.swift; sourceTree = "<group>"; };
+		CC51E3C720B84A2600B4A5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC51E39F20B84A2600B4A5EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC51E3B320B84A2600B4A5EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC51E3BE20B84A2600B4A5EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC51E39920B84A2600B4A5EB = {
+			isa = PBXGroup;
+			children = (
+				CC51E3A420B84A2600B4A5EB /* JeuDeDame */,
+				CC51E3B920B84A2600B4A5EB /* JeuDeDameTests */,
+				CC51E3C420B84A2600B4A5EB /* JeuDeDameUITests */,
+				CC51E3A320B84A2600B4A5EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC51E3A320B84A2600B4A5EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC51E3A220B84A2600B4A5EB /* JeuDeDame.app */,
+				CC51E3B620B84A2600B4A5EB /* JeuDeDameTests.xctest */,
+				CC51E3C120B84A2600B4A5EB /* JeuDeDameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC51E3A420B84A2600B4A5EB /* JeuDeDame */ = {
+			isa = PBXGroup;
+			children = (
+				CC51E3A520B84A2600B4A5EB /* AppDelegate.swift */,
+				CC51E3A720B84A2600B4A5EB /* ViewController.swift */,
+				CC51E3A920B84A2600B4A5EB /* Main.storyboard */,
+				CC51E3AC20B84A2600B4A5EB /* Assets.xcassets */,
+				CC51E3AE20B84A2600B4A5EB /* LaunchScreen.storyboard */,
+				CC51E3B120B84A2600B4A5EB /* Info.plist */,
+			);
+			path = JeuDeDame;
+			sourceTree = "<group>";
+		};
+		CC51E3B920B84A2600B4A5EB /* JeuDeDameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC51E3BA20B84A2600B4A5EB /* JeuDeDameTests.swift */,
+				CC51E3BC20B84A2600B4A5EB /* Info.plist */,
+			);
+			path = JeuDeDameTests;
+			sourceTree = "<group>";
+		};
+		CC51E3C420B84A2600B4A5EB /* JeuDeDameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC51E3C520B84A2600B4A5EB /* JeuDeDameUITests.swift */,
+				CC51E3C720B84A2600B4A5EB /* Info.plist */,
+			);
+			path = JeuDeDameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC51E3A120B84A2600B4A5EB /* JeuDeDame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC51E3CA20B84A2600B4A5EB /* Build configuration list for PBXNativeTarget "JeuDeDame" */;
+			buildPhases = (
+				CC51E39E20B84A2600B4A5EB /* Sources */,
+				CC51E39F20B84A2600B4A5EB /* Frameworks */,
+				CC51E3A020B84A2600B4A5EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JeuDeDame;
+			productName = JeuDeDame;
+			productReference = CC51E3A220B84A2600B4A5EB /* JeuDeDame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC51E3B520B84A2600B4A5EB /* JeuDeDameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC51E3CD20B84A2600B4A5EB /* Build configuration list for PBXNativeTarget "JeuDeDameTests" */;
+			buildPhases = (
+				CC51E3B220B84A2600B4A5EB /* Sources */,
+				CC51E3B320B84A2600B4A5EB /* Frameworks */,
+				CC51E3B420B84A2600B4A5EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC51E3B820B84A2600B4A5EB /* PBXTargetDependency */,
+			);
+			name = JeuDeDameTests;
+			productName = JeuDeDameTests;
+			productReference = CC51E3B620B84A2600B4A5EB /* JeuDeDameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC51E3C020B84A2600B4A5EB /* JeuDeDameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC51E3D020B84A2600B4A5EB /* Build configuration list for PBXNativeTarget "JeuDeDameUITests" */;
+			buildPhases = (
+				CC51E3BD20B84A2600B4A5EB /* Sources */,
+				CC51E3BE20B84A2600B4A5EB /* Frameworks */,
+				CC51E3BF20B84A2600B4A5EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC51E3C320B84A2600B4A5EB /* PBXTargetDependency */,
+			);
+			name = JeuDeDameUITests;
+			productName = JeuDeDameUITests;
+			productReference = CC51E3C120B84A2600B4A5EB /* JeuDeDameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC51E39A20B84A2600B4A5EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Maxime COUPAS";
+				TargetAttributes = {
+					CC51E3A120B84A2600B4A5EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CC51E3B520B84A2600B4A5EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC51E3A120B84A2600B4A5EB;
+					};
+					CC51E3C020B84A2600B4A5EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC51E3A120B84A2600B4A5EB;
+					};
+				};
+			};
+			buildConfigurationList = CC51E39D20B84A2600B4A5EB /* Build configuration list for PBXProject "JeuDeDame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC51E39920B84A2600B4A5EB;
+			productRefGroup = CC51E3A320B84A2600B4A5EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC51E3A120B84A2600B4A5EB /* JeuDeDame */,
+				CC51E3B520B84A2600B4A5EB /* JeuDeDameTests */,
+				CC51E3C020B84A2600B4A5EB /* JeuDeDameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC51E3A020B84A2600B4A5EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC51E3B020B84A2600B4A5EB /* LaunchScreen.storyboard in Resources */,
+				CC51E3AD20B84A2600B4A5EB /* Assets.xcassets in Resources */,
+				CC51E3AB20B84A2600B4A5EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC51E3B420B84A2600B4A5EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC51E3BF20B84A2600B4A5EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC51E39E20B84A2600B4A5EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC51E3A820B84A2600B4A5EB /* ViewController.swift in Sources */,
+				CC51E3A620B84A2600B4A5EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC51E3B220B84A2600B4A5EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC51E3BB20B84A2600B4A5EB /* JeuDeDameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC51E3BD20B84A2600B4A5EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC51E3C620B84A2600B4A5EB /* JeuDeDameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC51E3B820B84A2600B4A5EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC51E3A120B84A2600B4A5EB /* JeuDeDame */;
+			targetProxy = CC51E3B720B84A2600B4A5EB /* PBXContainerItemProxy */;
+		};
+		CC51E3C320B84A2600B4A5EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC51E3A120B84A2600B4A5EB /* JeuDeDame */;
+			targetProxy = CC51E3C220B84A2600B4A5EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC51E3A920B84A2600B4A5EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC51E3AA20B84A2600B4A5EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC51E3AE20B84A2600B4A5EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC51E3AF20B84A2600B4A5EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC51E3C820B84A2600B4A5EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC51E3C920B84A2600B4A5EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC51E3CB20B84A2600B4A5EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JeuDeDame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.u-clermont1.iut.JeuDeDame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC51E3CC20B84A2600B4A5EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JeuDeDame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.u-clermont1.iut.JeuDeDame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC51E3CE20B84A2600B4A5EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JeuDeDameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.u-clermont1.iut.JeuDeDameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JeuDeDame.app/JeuDeDame";
+			};
+			name = Debug;
+		};
+		CC51E3CF20B84A2600B4A5EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JeuDeDameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.u-clermont1.iut.JeuDeDameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JeuDeDame.app/JeuDeDame";
+			};
+			name = Release;
+		};
+		CC51E3D120B84A2600B4A5EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JeuDeDameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.u-clermont1.iut.JeuDeDameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JeuDeDame;
+			};
+			name = Debug;
+		};
+		CC51E3D220B84A2600B4A5EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JeuDeDameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.u-clermont1.iut.JeuDeDameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JeuDeDame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC51E39D20B84A2600B4A5EB /* Build configuration list for PBXProject "JeuDeDame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC51E3C820B84A2600B4A5EB /* Debug */,
+				CC51E3C920B84A2600B4A5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC51E3CA20B84A2600B4A5EB /* Build configuration list for PBXNativeTarget "JeuDeDame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC51E3CB20B84A2600B4A5EB /* Debug */,
+				CC51E3CC20B84A2600B4A5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC51E3CD20B84A2600B4A5EB /* Build configuration list for PBXNativeTarget "JeuDeDameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC51E3CE20B84A2600B4A5EB /* Debug */,
+				CC51E3CF20B84A2600B4A5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC51E3D020B84A2600B4A5EB /* Build configuration list for PBXNativeTarget "JeuDeDameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC51E3D120B84A2600B4A5EB /* Debug */,
+				CC51E3D220B84A2600B4A5EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC51E39A20B84A2600B4A5EB /* Project object */;
+}
