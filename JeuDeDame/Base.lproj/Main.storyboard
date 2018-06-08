@@ -1,24 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="N4X-vF-vvo">
+    <device id="ipad10_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="w2J-U9-jzM">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="N4X-vF-vvo" customClass="ViewController" customModule="JeuDeDame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gEK-Ht-u8Z">
+                        <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="k1J-MI-2aS">
+                                <rect key="frame" x="180.5" y="51" width="751" height="751"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="k1J-MI-2aS" secondAttribute="height" multiplier="1:1" id="dai-uu-zok"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="d9y-of-V5L">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Case Plateau" id="2Z4-BB-yEV" customClass="CasePlateau" customModule="JeuDeDame" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubinga_gauthey" translatesAutoresizingMaskIntoConstraints="NO" id="7pP-9t-ZhZ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                </imageView>
+                                                <view contentMode="scaleToFill" restorationIdentifier="Pio" translatesAutoresizingMaskIntoConstraints="NO" id="Xdf-Yj-y5e" userLabel="Pion View">
+                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="Xdf-Yj-y5e" firstAttribute="centerY" secondItem="2Z4-BB-yEV" secondAttribute="centerY" id="5PH-Co-qBJ"/>
+                                            <constraint firstItem="7pP-9t-ZhZ" firstAttribute="centerX" secondItem="2Z4-BB-yEV" secondAttribute="centerX" id="6M4-qB-QOU"/>
+                                            <constraint firstItem="Xdf-Yj-y5e" firstAttribute="height" secondItem="2Z4-BB-yEV" secondAttribute="height" id="6o4-Uy-G1q"/>
+                                            <constraint firstItem="Xdf-Yj-y5e" firstAttribute="centerX" secondItem="2Z4-BB-yEV" secondAttribute="centerX" id="ELi-l0-Usm"/>
+                                            <constraint firstItem="7pP-9t-ZhZ" firstAttribute="centerY" secondItem="2Z4-BB-yEV" secondAttribute="centerY" id="c9d-mG-VX9"/>
+                                            <constraint firstItem="7pP-9t-ZhZ" firstAttribute="width" secondItem="2Z4-BB-yEV" secondAttribute="width" id="hta-Xd-FhL"/>
+                                            <constraint firstItem="7pP-9t-ZhZ" firstAttribute="height" secondItem="2Z4-BB-yEV" secondAttribute="height" id="kzd-CG-fzb"/>
+                                            <constraint firstItem="Xdf-Yj-y5e" firstAttribute="width" secondItem="2Z4-BB-yEV" secondAttribute="width" id="oq0-K2-ZxA"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="imageView" destination="7pP-9t-ZhZ" id="h86-CB-NyW"/>
+                                            <outlet property="pionView" destination="Xdf-Yj-y5e" id="uWt-xI-7L1"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="delegate" destination="N4X-vF-vvo" id="l5R-Hg-TOU"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="k1J-MI-2aS" firstAttribute="centerY" secondItem="2Vf-Aq-dww" secondAttribute="centerY" id="9Wa-dd-lIc"/>
+                            <constraint firstItem="k1J-MI-2aS" firstAttribute="height" relation="lessThanOrEqual" secondItem="gEK-Ht-u8Z" secondAttribute="height" multiplier="0.9" id="Fyi-Oe-OwC"/>
+                            <constraint firstItem="k1J-MI-2aS" firstAttribute="centerX" secondItem="2Vf-Aq-dww" secondAttribute="centerX" id="eP5-my-1cO"/>
+                            <constraint firstItem="k1J-MI-2aS" firstAttribute="width" secondItem="gEK-Ht-u8Z" secondAttribute="width" multiplier="0.9" priority="750" id="ltq-Pv-lmB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2Vf-Aq-dww"/>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="k1J-MI-2aS" id="o6h-jX-8Nf"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vGC-KR-Ymp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.280575539568346" y="37.410071942446045"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bubinga_gauthey" width="2480" height="1778"/>
+    </resources>
 </document>

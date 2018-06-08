@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC46A3FC20C1843400EFD318 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC46A3FB20C1843300EFD318 /* Enums.swift */; };
+		CC46A40020C18FEC00EFD318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC46A3FF20C18FEC00EFD318 /* ViewController.swift */; };
 		CC51E3A620B84A2600B4A5EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51E3A520B84A2600B4A5EB /* AppDelegate.swift */; };
-		CC51E3A820B84A2600B4A5EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51E3A720B84A2600B4A5EB /* ViewController.swift */; };
 		CC51E3AB20B84A2600B4A5EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC51E3A920B84A2600B4A5EB /* Main.storyboard */; };
 		CC51E3AD20B84A2600B4A5EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC51E3AC20B84A2600B4A5EB /* Assets.xcassets */; };
 		CC51E3B020B84A2600B4A5EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC51E3AE20B84A2600B4A5EB /* LaunchScreen.storyboard */; };
 		CC51E3BB20B84A2600B4A5EB /* JeuDeDameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51E3BA20B84A2600B4A5EB /* JeuDeDameTests.swift */; };
 		CC51E3C620B84A2600B4A5EB /* JeuDeDameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51E3C520B84A2600B4A5EB /* JeuDeDameUITests.swift */; };
+		CC51E3D620B85E3F00B4A5EB /* CasePlateau.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51E3D520B85E3E00B4A5EB /* CasePlateau.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC46A3FB20C1843300EFD318 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = ../../../../../Users/macoupas/Downloads/azertyuio/azertyuio/Enums.swift; sourceTree = "<group>"; };
+		CC46A3FF20C18FEC00EFD318 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC51E3A220B84A2600B4A5EB /* JeuDeDame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeuDeDame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC51E3A520B84A2600B4A5EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC51E3A720B84A2600B4A5EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC51E3AA20B84A2600B4A5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC51E3AC20B84A2600B4A5EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC51E3AF20B84A2600B4A5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		CC51E3C120B84A2600B4A5EB /* JeuDeDameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeuDeDameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC51E3C520B84A2600B4A5EB /* JeuDeDameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeuDeDameUITests.swift; sourceTree = "<group>"; };
 		CC51E3C720B84A2600B4A5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC51E3D520B85E3E00B4A5EB /* CasePlateau.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasePlateau.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				CC51E3A520B84A2600B4A5EB /* AppDelegate.swift */,
-				CC51E3A720B84A2600B4A5EB /* ViewController.swift */,
 				CC51E3A920B84A2600B4A5EB /* Main.storyboard */,
 				CC51E3AC20B84A2600B4A5EB /* Assets.xcassets */,
 				CC51E3AE20B84A2600B4A5EB /* LaunchScreen.storyboard */,
 				CC51E3B120B84A2600B4A5EB /* Info.plist */,
+				CC51E3D520B85E3E00B4A5EB /* CasePlateau.swift */,
+				CC46A3FB20C1843300EFD318 /* Enums.swift */,
+				CC46A3FF20C18FEC00EFD318 /* ViewController.swift */,
 			);
 			path = JeuDeDame;
 			sourceTree = "<group>";
@@ -193,7 +199,7 @@
 				TargetAttributes = {
 					CC51E3A120B84A2600B4A5EB = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					CC51E3B520B84A2600B4A5EB = {
 						CreatedOnToolsVersion = 9.2;
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC51E3A820B84A2600B4A5EB /* ViewController.swift in Sources */,
+				CC51E3D620B85E3F00B4A5EB /* CasePlateau.swift in Sources */,
+				CC46A3FC20C1843400EFD318 /* Enums.swift in Sources */,
+				CC46A40020C18FEC00EFD318 /* ViewController.swift in Sources */,
 				CC51E3A620B84A2600B4A5EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,11 +434,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = DRCMU7YM68;
 				INFOPLIST_FILE = JeuDeDame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.u-clermont1.iut.JeuDeDame";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "527d77bf-7812-450e-b707-6734ee6127af";
+				PROVISIONING_PROFILE_SPECIFIER = tpios;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +452,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = DRCMU7YM68;
 				INFOPLIST_FILE = JeuDeDame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.u-clermont1.iut.JeuDeDame";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "527d77bf-7812-450e-b707-6734ee6127af";
+				PROVISIONING_PROFILE_SPECIFIER = tpios;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
